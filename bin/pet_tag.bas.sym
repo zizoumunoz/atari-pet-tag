@@ -327,8 +327,8 @@ CXM1P                    0001
 CXP0FB                   0002              (R )
 CXP1FB                   0003              (R )
 CXPPMM                   0007              (R )
-D                        00d7                  
 d                        00d7              (R )
+D                        00d7                  
 debugcycles              0000 ????         (R )
 debugscore               0000 ????         (R )
 DivideLoop               f3e3              (R )
@@ -336,19 +336,19 @@ doneoverscan             f3c4
 down2                    f38f              (R )
 DPC_kernel_options       0000 ????         (R )
 drawscreen               f3bf              (R )
-e                        00d8              (R )
 E                        00d8                  
+e                        00d8              (R )
 ECHOFIRST                0001                  
 ENABL                    001f              (R )
 ENAM0                    001d              (R )
 ENAM1                    001e              (R )
 endkernel                f17a              (R )
 enterlastkernel          f12b                  
-F                        00d9                  
 f                        00d9              (R )
+F                        00d9                  
 font                     0000 ????         (R )
-G                        00da                  
 g                        00da              (R )
+G                        00da                  
 game                     f45f              (R )
 goback                   f0a6              (R )
 GREEN                    00be                  
@@ -366,8 +366,8 @@ HMOVE                    002a              (R )
 HMP0                     0020              (R )
 HMP1                     0021              (R )
 HorPosLoop               f3e0              (R )
-i                        00dc              (R )
 I                        00dc                  
+i                        00dc              (R )
 initscore                f021              (R )
 INPT0                    0008                  
 INPT1                    0009                  
@@ -375,6 +375,8 @@ INPT2                    000a
 INPT3                    000b                  
 INPT4                    000c                  
 INPT5                    000d                  
+INPT6                    000e                  
+INPT7                    000f                  
 interlaced               0000 ????         (R )
 interrupted              0004                  
 INTIM                    0284              (R )
@@ -395,8 +397,8 @@ lifecolor                00f4
 lifepointer              00f2                  
 lives                    00f3                  
 loop2                    f205              (R )
-M                        00e0                  
 m                        00e0                  
+M                        00e0                  
 MachineIs2600            f011              (R )
 mincycles                0000 ????         (R )
 minikernel               0000 ????         (R )
@@ -500,6 +502,7 @@ playfieldpos             00ef              (R )
 plotpoint                f2ae              (R )
 PREY                     00be              (R )
 PURPLE                   006a                  
+PXE                      0000 ????         (R )
 q                        00e4                  
 Q                        00e4                  
 qtcontroller             0000 ????         (R )
@@ -523,8 +526,8 @@ retroputer               0005
 rightloop                f30f              (R )
 ROM2k                    0000 ????         (R )
 RSYNC                    0003                  
-S                        00e6                  
 s                        00e6                  
+S                        00e6                  
 score                    0093              (R )
 scorecolor               00a3              (R )
 scorefade                0000 ????         (R )
@@ -545,9 +548,10 @@ superchip                0000 ????         (R )
 SWACNT                   0281                  
 SWBCNT                   0283                  
 SWCHA                    0280              (R )
+SWCHA2                   0286                  
 SWCHB                    0282                  
-T                        00e7                  
 t                        00e7                  
+T                        00e7                  
 T1024T                   0297                  
 temp1                    009c              (R )
 temp2                    009d              (R )
@@ -567,8 +571,8 @@ tiny                     0007
 u                        00e8                  
 U                        00e8                  
 up2                      f344              (R )
-V                        00e9                  
 v                        00e9                  
+V                        00e9                  
 var0                     00a4                  
 var1                     00a5                  
 var10                    00ae                  
@@ -629,8 +633,8 @@ VERSION_MACRO            0069
 VERSION_VCS              0069                  
 vertical_reflect         0000 ????         (R )
 VSYNC                    0000              (R )
-w                        00ea                  
 W                        00ea                  
+w                        00ea                  
 whimsey                  0006                  
 WHITE                    000f              (R )
 WSYNC                    0002              (R )
@@ -639,6 +643,6 @@ X                        00eb
 y                        00ec                  
 Y                        00ec                  
 YELLOW                   001e              (R )
-Z                        00ed                  
 z                        00ed                  
+Z                        00ed                  
 --- End of Symbol List.
